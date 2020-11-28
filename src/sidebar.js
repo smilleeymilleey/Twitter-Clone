@@ -1,7 +1,12 @@
 import React from "react";
 import './Sidebar.css';
+import SidebarOption from "./SidebarOption";
 import TwitterIcon from '@material-ui/icons/Twitter';
-import SidebarOption from './SidebarOption.js';
+import HomeIcon from '@material-ui/icons/Home';
+import SearchIcon from '@material-ui/icons/Search';
+import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
+
+
 
 
 function Sidebar() {
@@ -10,13 +15,13 @@ function Sidebar() {
     {/*Twitter Icon*/}
     <TwitterIcon />
 
-    {/* Sidebar Option*/}
-    <SidebarOption />
-    {/* Sidebar Option*/}
-    <SidebarOption />
-    {/* Sidebar Option*/}
-    <SidebarOption />
-    {/* Sidebar Option*/}
+
+    <SidebarOption Icon={HomeIcon} text="Home" />
+
+    <SidebarOption Icon={SearchIcon} text="Explore" />
+
+    <SidebarOption  Icon={NotificationsNoneIcon} text="Notifications" />
+
     <SidebarOption />
 
 
