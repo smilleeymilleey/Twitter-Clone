@@ -22,7 +22,7 @@ function Sidebar() {
 
     <SidebarOption  Icon={NotificationsNoneIcon} text="Notifications" />
 
-    <SidebarOption />
+    
 
 
 
