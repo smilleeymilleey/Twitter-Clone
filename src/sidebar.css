@@ -3,3 +3,17 @@
   align-items: center;
   cursor: pointer;
 }
+
+.sidebarOption:hover {
+  background-color: #e8f5fe;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+  padding: 20px;
+}
+
+.sidebarOption > h2 {
+  font-weight: 800px;
+  font-size: 20px;
+  margin-right: 20px;
+}
