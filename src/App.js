@@ -7,9 +7,7 @@ function App() {
   return (
     //BEM
     <div className="app">
-      <h1>Twitter Clone</h1>
-
-      {/* SideBar */}
+    
       <Sidebar />
 
       {/* Feed */}
