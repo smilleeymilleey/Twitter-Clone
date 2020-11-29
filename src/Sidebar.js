@@ -34,7 +34,7 @@ function Sidebar() {
 
 
     {/* Button -> Tweet */}
-    <Button>Tweet</Button>
+    <Button variant="outlined" className="sidebar_tweet">Tweet</Button>
     </div>
   );
 
