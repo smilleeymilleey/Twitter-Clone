@@ -20,26 +20,29 @@ function Post({displayName, username, verified, text, image, avatar}) {
           <div className="post_header">
             <div className="post_headerText">
               <h3>
-                Caitlyn Miley <span>
+                Caitlyn Miley {" "}
+                <span className="post_headerSpecial">
                 <VerifiedUserIcon className="post_badge" />
-                </span> @smilleymilleey
-              </h3>
+                  @smilleymilleey </span> 
+                </h3>
+              </div>
               <div className="post_headerdescription">
                 <p> I challenge you to build a twitter clone</p>
               </div>
             </div>
-            <img src="https://media3.giphy.com/media/65ATdpi3clAdjomZ39/giphy.gif" alt="" />
+            <img className="gif" src="https://media3.giphy.com/media/65ATdpi3clAdjomZ39/giphy.gif" alt="" />
             <div className= "post_footer">
             <ChatBubbleOutlineIcon fontSize="small" />
               <RepeatIcon fontSize="small" />
               <FavoriteBorderIcon fontSize="small" />
               <PublishIcon fontsize="small" />
-            </div>
+
 
           </div>
         </div>
       </div>
-  );
-}
+    );
+  }
+
 
 export default Post;
