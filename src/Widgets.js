@@ -12,12 +12,25 @@ function Widgets () {
     <div className="widgets">
       <div className="widgets_input">
         <SearchIcon className="widgets_searchIcon" />
-        <input placeholder="Search Twitter" type="text" />
-
+          <input placeholder="Search Twitter" type="text" />
+      </div>
         <div className="widgets_widgetContainer">
           <h2>Whats Happening</h2>
             <TwitterTweetEmbed tweetId={"1333832086541783043"} />
-        </div>
+
+            <TwitterTimelineEmbed
+            sourceType="profile"
+            screenName="smilleymilleey"
+            options={{height: 400}}
+            />
+
+            <TwitterShareButton
+            url={"https://facebook.com"}
+            options={{ text: "#react js is awesome"}}
+            />
+
+
+        
       </div>
 
     </div>

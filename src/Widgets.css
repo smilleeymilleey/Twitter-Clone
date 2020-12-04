@@ -1,3 +1,14 @@
 .Widgets {
   flex: 0.3;
 }
+
+.widgets_input {
+  display: flex;
+  align-items: center;
+  background-color: #D3D3D3;
+  padding:10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
