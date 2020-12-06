@@ -14,28 +14,29 @@ function Post({displayName, username, verified, text, image, avatar}) {
   return (
     <div className="post">
       <div className="post_avatar">
-        <Avatar src="/static/images/avatar/3.jpg"/>
-        </div>
-        <div className="post_body">
-          <div className="post_header">
-            <div className="post_headerText">
-              <h3>
-                Caitlyn Miley {" "}
+        <Avatar src={avatar}/>
+    </div>
+      <div className="post_body">
+        <div className="post_header">
+          <div className="post_headerText">
+            <h3>
+              {displayName}{" "}
                 <span className="post_headerSpecial">
-                <VerifiedUserIcon className="post_badge" />
-                  @smilleymilleey </span> 
-                </h3>
-              </div>
-              <div className="post_headerdescription">
-                <p> I challenge you to build a twitter clone</p>
-              </div>
+                  {verified && <VerifiedUserIcon className="post_badge" />}
+                    @{username} </span>
+            </h3>
+        </div>
+          <div className="post_headerdescription">
+            <p>{text}</p>
+          </div>
             </div>
-            <img className="gif" src="https://media3.giphy.com/media/65ATdpi3clAdjomZ39/giphy.gif" alt="" />
-            <div className= "post_footer">
-            <ChatBubbleOutlineIcon fontSize="small" />
-              <RepeatIcon fontSize="small" />
-              <FavoriteBorderIcon fontSize="small" />
-              <PublishIcon fontsize="small" />
+              <img src={image}
+               alt="" />
+                <div className= "post_footer">
+                  <ChatBubbleOutlineIcon fontSize="small" />
+                    <RepeatIcon fontSize="small" />
+                      <FavoriteBorderIcon fontSize="small" />
+                        <PublishIcon fontsize="small" />
 
 
           </div>

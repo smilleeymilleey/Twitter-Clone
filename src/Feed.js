@@ -12,7 +12,12 @@ function Feed() {
         </div>
       {/* TweetBox */}
       <TweetBox />
-      <Post />
+      <Post displayName="Caitlyn"
+      username="smilleeymilleey"
+      verified={true}
+      text="its working"
+      avatar="/static/images/avatar/3.jpg"
+      image='https://media3.giphy.com/media/65ATdpi3clAdjomZ39/giphy.gif'/>
       <Post />
       <Post />
       <Post />
