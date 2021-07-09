@@ -71,10 +71,10 @@ Twitter Clone
 
 
 
- I wanted to create the best social media app ever! follow me on the real twitter: https://twitter.com/smilleymilleey
+ I wanted to re-create the best social media app ever! follow me on the real twitter here: https://twitter.com/smilleymilleey
 
 Here's why its awesome:
-* View real tweets in real time 
+* View real tweets in real time thanks to firebase 
 * Beautiful UI to write tweets
 * Easily look at each tweet
 
@@ -93,7 +93,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-You can use this app to pretend to go shopping!
+You can use this app to create tweets and !
 
 
 
